@@ -33,6 +33,7 @@ header{
 main{
   grid-area: main;
   padding: 1rem;
+  height: 92vh;
 }
 footer{
   grid-area: footer;
@@ -81,8 +82,8 @@ img{
   border-radius: 0.5rem;
 }
 img.medium{
-  max-width: 29rem;
-  width: 100%
+  width: 100%; 
+  max-width: 30rem;
 }
 
 /*Card*/
@@ -106,4 +107,8 @@ img.medium{
 /*Rating*/
 .rating span {
   color: #f0c040;
+  margin: 0.1rem;
+}
+.rating span:last-child{
+  color: #203040;
 }
